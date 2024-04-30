@@ -118,9 +118,10 @@ function youGottaCalmDown(shout) {
   // Your code here
   //const citrus = fruits.slice(1, 3)
   //let text = shout[];
-  //text=shout
-  //let n = text.indexof("!");
-  //console.log(n);
+  let text = shout;
+  let n = text.indexOf("!");
+  let result = text.slice(0, n + 1);
+  console.log(result);
   //let newShout = [];
   //for (let i = o; i < n; i++) {
   // newShout.push(shout[i]);
@@ -128,4 +129,4 @@ function youGottaCalmDown(shout) {
   //return newShout;
   //if ((shout[i] = text.indexof("!"))) shout.slice();
 }
-//console.log(youGottaCalmDown("HI!!!!!!!"));
+youGottaCalmDown("HI!!!!!!!");
